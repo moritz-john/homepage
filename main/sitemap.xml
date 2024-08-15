@@ -306,6 +306,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://gethomepage.dev/main/widgets/services/develancacheui/</loc>
+         <lastmod>2024-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://gethomepage.dev/main/widgets/services/diskstation/</loc>
          <lastmod>2024-08-15</lastmod>
          <changefreq>daily</changefreq>
