@@ -5850,16 +5850,20 @@
 <li>Click the Create button</li>
 <li>Name the group something informative, like api-ro-users</li>
 <li>Click on the Permissions "folder"</li>
-<li>Click Add -&gt; Group Permission</li>
+<li>Click Add -&gt; Group Permission<ul>
 <li>Path: /</li>
 <li>Group: group from bullet 4 above</li>
 <li>Role: PVEAuditor</li>
 <li>Propagate: Checked</li>
+</ul>
+</li>
 <li>Expand Permissions, click on Users</li>
-<li>Click the Add button</li>
+<li>Click the Add button<ul>
 <li>User name: something informative like <code>api</code></li>
 <li>Realm: Linux PAM standard authentication</li>
 <li>Group: group from bullet 4 above</li>
+</ul>
+</li>
 <li>Expand Permissions, click on API Tokens</li>
 <li>Click the Add button<ul>
 <li>User: user from bullet 8 above</li>
