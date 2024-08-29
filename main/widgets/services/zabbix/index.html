@@ -6,17 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Nginx Proxy Manager Widget Configuration">
+        <meta name="description" content="Zabbix Widget Configuration">
       
       
       
-        <link rel="canonical" href="https://gethomepage.dev/main/widgets/services/nginx-proxy-manager/">
+        <link rel="canonical" href="https://gethomepage.dev/main/widgets/services/zabbix/">
       
       
-        <link rel="prev" href="../nextdns/">
+        <link rel="prev" href="../xteve/">
       
       
-        <link rel="next" href="../nzbget/">
+        <link rel="next" href="../../info/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Nginx Proxy Manager - Homepage</title>
+        <title>Zabbix - Homepage</title>
       
     
     
@@ -63,17 +63,17 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Nginx Proxy Manager - Homepage" />
-<meta property="og:description" content="Nginx Proxy Manager Widget Configuration" />
-<meta property="og:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/nginx-proxy-manager.png" />
+<meta property="og:title" content="Zabbix - Homepage" />
+<meta property="og:description" content="Zabbix Widget Configuration" />
+<meta property="og:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/zabbix.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://gethomepage.dev/main/widgets/services/nginx-proxy-manager/" />
+<meta property="og:url" content="https://gethomepage.dev/main/widgets/services/zabbix/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Nginx Proxy Manager - Homepage" />
-<meta property="twitter:description" content="Nginx Proxy Manager Widget Configuration" />
-<meta property="twitter:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/nginx-proxy-manager.png" />
+<meta property="twitter:title" content="Zabbix - Homepage" />
+<meta property="twitter:description" content="Zabbix Widget Configuration" />
+<meta property="twitter:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/zabbix.png" />
 </head>
   
   
@@ -126,7 +126,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Nginx Proxy Manager
+              Zabbix
             
           </span>
         </div>
@@ -3170,17 +3170,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../nginx-proxy-manager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3195,7 +3188,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -4690,10 +4682,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../zabbix/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -4708,6 +4707,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -5889,7 +5889,7 @@
 
 
   
-    <a href="https://github.com/gethomepage/homepage/tree/main/docs/widgets/services/nginx-proxy-manager.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/gethomepage/homepage/tree/main/docs/widgets/services/zabbix.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -5897,16 +5897,16 @@
   
 
 
-  <h1>Nginx Proxy Manager</h1>
+  <h1>Zabbix</h1>
 
-<p>Learn more about <a href="https://nginxproxymanager.com/">Nginx Proxy Manager</a>.</p>
-<p>Login with the same admin username and password used to access the web UI.</p>
-<p>Allowed fields: <code>["enabled", "disabled", "total"]</code>.</p>
+<p>Learn more about <a href="https://github.com/zabbix/zabbix">Zabbix</a>.</p>
+<p>See the <a href="https://www.zabbix.com/documentation/current/en/manual/web_interface/frontend_sections/users/api_tokens">Zabbix documentation</a> for details on generating API tokens.</p>
+<p>The widget supports (at least) Zibbax server version 7.0.</p>
+<p>Allowed fields: <code>["warning", "average", "high", "disaster"]</code>.</p>
 <div class="language-yaml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">widget</span><span class="p">:</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npm</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">http://npm.host.or.ip</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">admin_username</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">admin_password</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zabbix</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">http://zabbix.host.or.ip/zabbix</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">your-api-key</span>
 </span></code></pre></div>
 
 
