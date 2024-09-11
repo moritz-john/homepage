@@ -463,8 +463,8 @@
         "51-night": "Lekka mżawka",
         "53-day": "Mżawka",
         "53-night": "Mżawka",
-        "55-day": "Ciężka mżawka",
-        "55-night": "Ciężka mżawka",
+        "55-day": "Gęsta mżawka",
+        "55-night": "Gęsta mżawka",
         "56-day": "Lekko chłodna mżawka",
         "56-night": "Lekko chłodna mżawka",
         "57-day": "Chłodna mżawka",
@@ -905,7 +905,7 @@
         "total": "Całkowite"
     },
     "swagdashboard": {
-        "proxied": "Poprzez proxy",
+        "proxied": "Proxy",
         "auth": "Z uwietrzytelnieniem",
         "outdated": "Nieaktualne",
         "banned": "Zbanowano"
